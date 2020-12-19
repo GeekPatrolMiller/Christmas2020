@@ -13,3 +13,10 @@ All of the files are located in the S16 folder. Download the entire contents of 
 <ul>
     <li><a href="https://github.com/qmk/qmk_toolbox">QMK Toolbox</a> - Tool for installing firmware onto the microcontroller</li>
 </ul>
+
+<h4>Version Descriptions</h4>
+<ul>
+    <li><b>blanksweet16</b> - JSON (KFB) - This is an empty starter JSON file for creating from scratch</li>
+    <li><b>DefaultSweet16</b> - JSON (KFB) - This is a simple 10-key keypad demo</li>
+    <li><b>LegacyMutual</b> - JSON (KFB) & Firmware demo created for my workplace team</li>
+</ul>
