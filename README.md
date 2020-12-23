@@ -18,5 +18,6 @@ All of the files are located in the S16 folder. Download the entire contents of 
 <ul>
     <li><b>blanksweet16</b> - JSON (KFB) - This is an empty starter JSON file for creating from scratch</li>
     <li><b>DefaultSweet16</b> - JSON (KFB) - This is a simple 10-key keypad demo</li>
-    <li><b>LegacyMutual</b> - JSON (KFB) & Firmware demo created for my workplace team</li>
+    <li><b>PowerShellLauncher</b> - JSON (KFB) & Firmware to demonstrate using PowerShell to launch and control stuff </li>
+    <li><b>ZoomRingCentral</b> - JSON (KFB) & Firmware for use with Zoom & RingCentral meetings</li>
 </ul>
