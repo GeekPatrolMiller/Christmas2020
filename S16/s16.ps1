@@ -16,13 +16,13 @@ Import-Module -Force $Folder\ProcessSwitcher.psm1
 # Some applications can be started but they cannot be switched to because the container window has no Title. The windows 10 Calculator is one example
 $appname = @(
     "encompass",        # 0 - Encompass
-    "firefox",          # 1 - FireFox Web Browser
-    "chrome",           # 2 - Google Chrome...
-    "outlook",          # 3 - Outlook
-    "word",             # 4 - Word
-    "excel",            # 5 - Excel
-    "powerpoint",       # 6 - PowerPoint
-    "",                 # 7 - ...
+    "chrome",           # 1 - Google Chrome...
+    "firefox",          # 2 - FireFox Web Browser
+    "",                 # 3 - ...
+    "outlook",          # 4 - Outlook
+    "word",             # 5 - Word
+    "excel",            # 6 - Excel
+    "powerpoint",       # 7 - PowerPoint
     "",                 # 8 - ...
     "",                 # 9 - ...
     "",                 # 10 - ...
@@ -35,13 +35,13 @@ $appname = @(
 # The following are the actual commands that if run from the "Win + R" Run screen, would cause the application to launch. Include the full path and filename
 $launcher = @(
     "C:\SmartClientCache\Apps\Ellie Mae\Encompass\Encompass.exe",
-    "C:\Program Files\Mozilla Firefox\firefox.exe",
     "chrome",
+    "C:\Program Files\Mozilla Firefox\firefox.exe",
+    "",
     "outlook",
     "winword",
     "excel",
     "powerpnt",
-    "",
     "",
     "",
     "",
